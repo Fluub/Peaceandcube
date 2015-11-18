@@ -56,82 +56,82 @@ paths:
         name: Etudiant
         description: Tu connais les bases de la magie
     apprentice:
-        name: Apprentie
+        name: Apprenti
         description: Tu disposes d'une bonne variété de sorts
     master:
         name: Maitre
-        description: L'avant-dernier magicien
+        description: Le magicien supreme
     engineer:
-        name: Engineer
-        description: Has engineering spells
+        name: Ingenieur
+        description: Tu disposes de sorts d'ingenieurie basiques
     architect:
-        name: Architect
-        description: Has super-powerful engineering spells
+        name: Architecte
+        description: Tu disposes de puissants sorts d'ingenieurie
     battle:
-        name: Battle
-        description: Combat spells only
+        name: Combat
+        description: Uniquement des sorts de combat
     broom:
-        name: Broom
-        description: Flying broom upgrades
+        name: Balai magique
+        description: Ameliorations comprenant des sorts de vol
 wand:
-    default_name: Wand
-    upgrade_default_description: Will upgrade your wand.
-    upgrade_item_description: Will be absorbed by your wand
-    spell_item_description: Will be absorbed by your wand
-    brush_item_description: Will be absorbed by your wand
-    copy_material_name: Copy
-    copy_material_description: Fills with the target material
-    erase_material_name: Erase
-    erase_material_description: Fills with Air
+    default_name: Baguette
+    upgrade_default_description: Ameliore ta baguette.
+    upgrade_item_description: Absorbé par ta baguette
+    spell_item_description: Absorbé par ta baguette
+    brush_item_description: Absorbé par ta baguette
+    copy_material_name: Copie
+    copy_material_description: Remplie avec le matériau ciblé
+    erase_material_name: Efface
+    erase_material_description: Remplie avec de l'air
     clone_material_name: Clone
-    clone_material_description: Copies blocks from a target
-    replicate_material_name: Replicate
-    replicate_material_description: Replicates the clone target
-    clone_material_activated: Clone source selected
-    replicate_material_activated: Replicate source selected
-    erase_modifier_activated: Erase modifier active
+    clone_material_description: Copie les blocs depuis la cible
+    replicate_material_name: Duplique
+    replicate_material_description: Duplique le clone de la cible
+    clone_material_activated: Clone la source selectionnée
+    replicate_material_activated: Duplique la source selectionnée
+    erase_modifier_activated: Erase le modificateur actif
     map_material_name: "Map $id"
     map_material_name_scaled: "Map $id ($sizex$size)"
-    map_material_description: Creates pixel art from last held map
-    schematic_material_description: Uses $schematic to build.
-    building_material_description: Build with $material
-    upgrade_uses: Adds $count Uses
-    upgrade_uses_singular: Adds $count Use
-    uses_remaining_brief: $count Uses
-    uses_remaining_singular: $count Use
-    uses_remaining: $count Uses Remaining
+    map_material_description: Créé un pixel art à partir de la dernière carte tenue en main
+    schematic_material_description: Utilise $schematic pour construire.
+    building_material_description: Construit avec $material
+    upgrade_uses: Ajoute $count utilisations
+    upgrade_uses_singular: Ajoute $count utilisation
+    uses_remaining_brief: $count utilisations
+    uses_remaining_singular: $count utilisation
+    uses_remaining: $count utilisations restantes
     enchantment_level_1: I
     enchantment_level_2: II
     enchantment_level_3: III
     enchantment_level_4: IV
     enchantment_level_5: V
     enchantment_level_max: X
-    spell_count: Knows $count Spells
-    material_count: Has $count Materials
-    upgrade_spell_count: Adds $count Spells
-    upgrade_material_count: Adds $count Materials
+    spell_count: Tu connais $count sorts
+    material_count: Tu détiens $count Materiau(x)
+    upgrade_spell_count: Ajoute $count sortss
+    upgrade_material_count: Ajoute $count Matériaux
     mana_amount: "Mana: $amount"
     mana_amount_boosted: "Mana: $amount &f(&b$mana&f)"
-    mana_regeneration: "Mana Regeneration: $amount/s"
+    mana_regeneration: "Regeneration de Mana: $amount/s"
     mana_per_damage: "Mana Rage: $amount/HP"
-    mana_regeneration_boosted: "Mana Regeneration: $amount &f(&b$mana&f)&d/s"
-    mana_boost: "Mana Boost: $amount%"
-    mana_regeneration_boost: "Mana Regeneration Boost: $amount%"
-    cost_reduction: Cost Reduction $roman
-    cooldown_reduction: Cooldown Reduction $roman
-    power: Power $roman
+    mana_regeneration_boosted: "Regeneration de Mana: $amount &f(&b$mana&f)&d/s"
+    mana_boost: "Boost de mana: $amount%"
+    mana_regeneration_boost: "Boost de regeneration de mana: $amount%"
+    cost_reduction: Reduction du cout $roman
+    cooldown_reduction: Reduction du delai de recuperation $roman
+    power: Puissance $roman
     protection: Protection $roman
-    protection_physical: Physical Protection $roman
-    protection_projectile: Projectile Protection $roman
-    protection_fall: Fall Protection $roman
-    protection_fire: Fire Protection $roman
-    protection_blast: Blast Protection $roman
+    protection_physical: Protection physique $roman
+    protection_projectile: Protection contre les projectiles $roman
+    protection_fall: Chute amortie $roman
+    protection_fire: Protection contre le feu $roman
+    protection_blast: Protection contre les explosions $roman
     potion_effect: $effect $roman
-    super_powered: Superpowered
-    super_protected: Invulnerability
+    super_powered: Surpuissant
+    super_protected: Invulnerable
     spell_aura: "Aura: &6$spell"
-    costs_description: Costs $description
-    active_costs_description: Costs $description Per Second
+    costs_description: Couts $description
+    active_costs_description: Couts $description par seconde
     range_description: "&9Range: &6$range &9meters"
     owner_description: $name's Wand
     bound_description: Bound to $name
