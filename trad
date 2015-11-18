@@ -38,29 +38,29 @@
 
 general:
     no_spells: Tu ne connais aucun sort
-    no_spells_in_category: You don't know any spells in the $category category
-    spell_list_page: You know $count spells [page $page of $pages]
-    spell_list: You know $count spells
+    no_spells_in_category: Tu ne connais aucun sort dans la categorie $category
+    spell_list_page: Tu connais $count sorts [page $page de $pages]
+    spell_list: Tu connais $count sorts
     locked_chest: Ce coffre est protégé et donc incassable.
 books:
     default:
         author: NathanWolf
-        title: $category Spell Book
+        title: Livre de sorts $category
     all:
-        title: The Master Spell Book
+        title: Le maitre livre de sorts
 paths:
     beginner:
-        name: Beginner
-        description: Just starting out with magic
+        name: Debutant
+        description: Tu decouvres tout juste la magie
     student:
-        name: Student
-        description: Starting to learn the basics
+        name: Etudiant
+        description: Tu connais les bases de la magie
     apprentice:
-        name: Apprentice
-        description: A good variety of spells
+        name: Apprentie
+        description: Tu disposes d'une bonne variété de sorts
     master:
-        name: Master
-        description: The penultimate wizard
+        name: Maitre
+        description: L'avant-dernier magicien
     engineer:
         name: Engineer
         description: Has engineering spells
