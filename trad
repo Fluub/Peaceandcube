@@ -89,7 +89,7 @@ wand:
     replicate_material_description: Duplique le clone de la cible
     clone_material_activated: Clone la source selectionnée
     replicate_material_activated: Duplique la source selectionnée
-    erase_modifier_activated: Erase le modificateur actif
+    erase_modifier_activated: Efface le modificateur actif
     map_material_name: "Map $id"
     map_material_name_scaled: "Map $id ($sizex$size)"
     map_material_description: Créé un pixel art à partir de la dernière carte tenue en main
