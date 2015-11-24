@@ -1219,32 +1219,32 @@ spells:
         cast: You place a block of $material
     force:
         name: Force
-        description: Use telekinesis
-        usage: Cast to select and throw an entity
-        cancel: Released target
-        target_selected: You captured $target
+        description: Utiliser la force
+        usage: Lance le sort pour pousser une entité
+        cancel: Cibre delivrée
+        target_selected: Tu captures $target
     fireball:
-        name: Fireball
-        description: Cast an exploding fireball
+        name: Boule de feu
+        description: Lance une boule de feu explosive
     fireball|2:
-        upgrade_description: "&r&b&bull; &6Increased accuracy and damage"
+        upgrade_description: "&r&b&bull; &6Dommage et précisions ameliorés"
     fireball|3:
-        upgrade_description: "&r&b&bull; &6Pinpoint accuracy and speed"
+        upgrade_description: "&r&b&bull; &6Vitesse et précision ameliorés"
     fireball|4:
-        upgrade_description: "&r&b&bull; &6Now starts fires"
+        upgrade_description: "&r&b&bull; &6Enflamme désormais"
     wither:
         name: Wither
-        description: Shoot wither skulls
-        upgrade_description: "&r&b&bull; &6More wither skulls"
+        description: Lance des têtes de wither
+        upgrade_description: "&r&b&bull; &6Plus de têtes de wither"
     map:
-        name: Map
-        description: Generate a map
-        cast: Here's a map!
+        name: Carte
+        description: Génère une carte
+        cast: Voici une carte!
     camera:
         name: Camera
-        description: Take a portrait of yourself or others
-        cast_entity: You took a photo of $target
-        fail: Failed to load photo
+        description: Prend une photo de vous ou des autres
+        cast_entity: Tu prends une photo de $target
+        fail: La photo a echouée
         cast: CLICK!
         cast_self: Selfie!
     tornado:
@@ -1259,44 +1259,44 @@ spells:
         cast: You transmute your structure to $material
     blaster:
         name: Blaster
-        description: Fire powerful bolts of energy
-        usage: Reflects off of iron blocks
+        description: Lance de puisants traits énergetiques
+        usage: Rebondit sur les blocs de fer
     missile:
-        name: Magic Missile
-        description: Fire a bolt of pure magic
-        cast: You fire a missile at $target
-        upgrade_description: "&r&b&bull; &6Increased damage and range"
+        name: Missile magique
+        description: Lance un missile de pure magie
+        cast: Tu lances un missile sur $target
+        upgrade_description: "&r&b&bull; &6Dommages et portée ameliorés"
     testdummy:
-        name: Test Dummy
-        description: Spawn a poor test dummy
+        name: Porte
+        description: Invoque une porte
     projectile:
-        name: Project I.L.E.
-        description: A spell for testing projectiles
-        cast: Launching projectile
-        cast_finish: Projectile hit
-        no_target_finish: Projectile miss
+        name: Projectilo
+        description: Un sort pour tester les projectiles
+        cast: Lance le projectile
+        cast_finish: Le projectile touche!
+        no_target_finish: Le projectile rate sa cible!
     whip:
-        name: Whip
-        description: A magical whip of pure energy
+        name: Fouet
+        description: Un fouet magique énergetique
         cast: Crack!
     sticky:
-        name: Sticky Bomb
-        description: Toss a sticky bomb that explodes after 5 seconds
-        cast: You toss a sticky bomb
+        name: Bombe collante
+        description: Lance une bombe collante qui explose après 5 secondes
+        cast: Tu lances une bombe collante
     homing:
-        name: Homing Missile
-        description: Shoot a bolt of energy that will track your target
-        cast: You fire a homing missile at $target
-        lock_on: "&d&o$player&r&5 has locked on to you!"
-        cast_player_message: "&d&o$player&r&5's $spell hit you"
+        name: Missile à tête chercheuse
+        description: Lance un missile magique à tête chercheuse
+        cast: Tu lances un missile à tête chercheuse sur $target
+        lock_on: "&d&o$player&r&5 a verrouillé un missile sur toi!"
+        cast_player_message: "&d&o$player&r&5'le $spell de &d&o$player&r&5' te touche"
     blind:
-        name: Blind
-        description: Blind your target
-        cast: You blind $target
+        name: Aveuglement
+        description: Aveugle ta cible
+        cast: Tu aveugles $target
     pollinate:
-        name: Pollinate
-        description: Plant some flowers!
-        cast: Pollinate!
+        name: Pollen
+        description: Plante quelques fleurs!
+        cast: Pollinisation!
     paste:
         name: Paste
         description: Pastes a full schematic
@@ -1304,26 +1304,26 @@ spells:
         cast_finish: Pasted $count blocks
         no_action: Schematic loading, please try again!
     kill:
-        name: Kill
-        description: Deal lethal damage to your target
-        cast: DIE!
-        upgrade_description: "&r&b&bull; &6Faster, larger projectile"
+        name: Meurtre
+        description: Tue ta cible
+        cast: MEURS!
+        upgrade_description: "&r&b&bull; &6Projectile plus gros et plus rapide"
     superkill:
-        name: SuperKill
-        description: Kills your target, no questions asked
-        cast: SUPER DIE!
+        name: Supermeutre
+        description: Tue ta cible, pas de questions
+        cast: CREVE!
     torture:
         name: Torture
-        description: Mercilessly torture your enemy
-        cast: Feel my wrath!
-        upgrade_description: "&r&b&bull; &6Increased damage and duration"
+        description: Torture ton ennemi
+        cast: Ressens ma haine!
+        upgrade_description: "&r&b&bull; &6Dommage et durée augmentés"
     boomstown:
         name: One-Way Ticket to Boomstown
         description: Send your target packing to an explosive destination
     rubberize:
-        name: Rubberize
-        description: Make the target area bouncy
-        cast: Time to bounce!
+        name: Slimisation
+        description: Rend la région ciblée rebondissante
+        cast: Ca va rebondir!
     count:
         name: Entity Counter
         description: An admin tool to check for nearby entities
@@ -1340,63 +1340,63 @@ spells:
         cast: You feel lighter
         cost_free: You feel heavier
     petrify:
-        name: Petrify
-        description: Immobilize your target
-        cast: You petrify $target.
+        name: Petrification
+        description: Pétrifie la cible
+        cast: Tu pétrifies $target.
     entangle:
-        name: Entangle
-        description: Trap your target with ropes
-        cast: You trap $target.
+        name: Cage
+        description: Piège la cible avec des cordes
+        cast: Tu pièges $target.
     wound:
-        name: Wound
-        description: Physically damage your target
-        cast: You slash $target.
-        upgrade_description: "&r&b&bull; &6Increased damage"
+        name: Blessure
+        description: Blesse ta cible
+        cast: Tu blesses $target.
+        upgrade_description: "&r&b&bull; &6Dommages augmentés"
     stun:
-        name: Stun
-        description: Stun and damage your target
-        cast: You throw a stun ball
-        upgrade_description: "&r&b&bull; &6Increased damage and stun duration"
+        name: Etourdissement
+        description: Etourdit et blesse ta cible
+        cast: Tu lances un étourdissement
+        upgrade_description: "&r&b&bull; &6Dommages et durée augmentés"
     lift:
-        name: Lift
-        description: Lift up your target
-        cast: You lift $target.
+        name: Soulèvement
+        description: Soulève ta cible
+        cast: Tu soulèves $target.
     rocket:
-        name: Rocket
-        description: Go for a wild ride
-        cast: Liftoff!
+        name: Fusée
+        description: Un petit tour de fusée
+        cast: Décollage!
     sponge:
-        name: Sponge
-        description: Suck up water in an area
+        name: Eponge
+        description: Aspire les liquides de la zone
         cast: Slurp!
     upgrades:
-        name: Spell Progress
-        descriptions: Shows available upgrades
-        fail: You must be holding a wand!
-        level_requirement: "&r&cRequires: &6$path"
-        cast_requirement: "Casts: &6$current&f/&e$required"
+        name: Progression des sorts
+        descriptions: Montre les possibles améliorations
+        fail: Vous devez tenir une baguette!
+        level_requirement: "&r&cRequis: &6$path"
+        cast_requirement: "Sorts: &6$current&f/&e$required"
     brushselect:
         name: Brush Selector
         descriptions: Chooses your active brush
         fail: You must be holding a wand!
     tracking:
-        name: Tracking Sense
-        description: Find nearby life
-        cast: You sense $target nearby
-        no_target: It's quiet ... too quiet!
-        upgrade_description: "&r&b&bull; &6Larger search radius"
+        name: Sens de la chasse
+        description: Trouve la vie à proximité
+        cast: Vous repérez $target proche
+        no_target: C'est trop calme!
+        upgrade_description: "&r&b&bull; &6Rayon de recherche plus grand"
     enchantwand:
-        name: Upgrade Wand
-        description: Add levels to your wand
-        no_wand: You must be holding a wand!
+        name: Améliore la baguette
+        description: Ajoute des niveaux à votre baguette
+        no_wand: Vous devez tenir une baguette!
     addspell:
-        name: Add Spell
-        description: Add a spell to your wand
-        no_upgrade: You may not learn with that $wand.
-        no_path: You must be at least $path!
-        no_path_end: You must be ready to advance to $path!
-        no_wand: You must be holding a wand!
-        no_target: You already know that spell
+        name: Ajouter sort
+        description: Ajouter un sort à votre baguette
+        no_upgrade: Vous ne pouvez pas apprendre cela avec $wand.
+        no_path: Vous devez suivre la voie $path!
+        no_path_end: Vous devez être prêt pour la voie $path!
+        no_wand: Vous devez tenir une baguette!
+        no_target: Vous connaissez deja ce sort
     giveitem:
         name: Give Item
         description: Give an item to the player
@@ -1485,33 +1485,33 @@ spells:
 
 wands:
     default:
-        name: Wand
-        description: $path Magic Wand
+        name: Bâton 
+        description: Bâton du $path
     beginner:
-        name: Wand
-        description: $path Magic Wand
+        name: Bâton
+        description: Bâton du $path
     starter:
-        name: Wand
+        name: Bâton
         description: A Wand with Limited Potential
     master:
-        name: Master Wand
-        description: $path Magic Wand
+        name: Bâton du Mâitre
+        description: Bâton du $path
     student:
-        name: Student Wand
-        description: $path Magic Wand
+        name: Bâton de l'étudiant
+        description: Bâton du $path
     apprentice:
-        name: Apprentice Wand
-        description: $path Magic Wand
+        name: Bâton de l'apprenti
+        description: Bâton du $path
     rage:
-        name: Rage Sword
-        description: Gathers energy when hitting an enemy
-        spell_instructions: "&r&bUse the hotbar buttons to cast spells. Spells require mana, shown in the XP bar."
-        inventory_instructions: "&r&bUse the drop (Q) button to open/close the spell inventory."
+        name: Epée de la rage
+        description: Se nourrit d'énergie en combat
+        spell_instructions: "&r&bUtilise les raccourcis pour lancer les sorts. Les sorts nécessitent du mana montré dans la barre d'XP."
+        inventory_instructions: "&r&bUtilise le bouton lâcher (A) pour ouvrir/lacher l'inventaire des sorts."
     battle:
-        name: Master Sword
-        description: Spellcasting sword
-        spell_instructions: "&r&bUse the hotbar buttons to cast spells. Spells require mana, shown in the XP bar."
-        inventory_instructions: "&r&bUse the drop (Q) button to open/close the spell inventory."
+        name: Epée du Maître
+        description: Epée magique
+        spell_instructions: "&r&bUtilise les raccourcis pour lancer les sorts. Les sorts nécessitent du mana montré dans la barre d'XP."
+        inventory_instructions: "&r&bUtilise le bouton lâcher (A) pour ouvrir/lacher l'inventaire des sorts."
     engineer:
         name: Engineering Wand
         description: $path Magic Wand
@@ -1523,45 +1523,45 @@ wands:
         description: For admins only
     camera:
         name: Camera
-        description: Take a portrait of yourself or others
+        description: Prend une photo de vous ou des autres
     magichat:
-        name: Magic Hat
-        description: A true wizard's hat
+        name: Chapeau magique
+        description: Le chapeau d'un vrai mage
     wizardhelmet:
-        name: Wizard's Scarf
-        description: A magical scarf
+        name: L'écharpe magique
+        description: L'écharpe d'un vrai mage
     wizardchestplate:
-        name: Wizard's Robes
-        description: Magical robes
+        name: La robe magique
+        description: La robe d'un vrai mage
     wizardleggings:
-        name: Wizard's Pants
-        description: Magical pants
+        name: Le pantalon magique
+        description: Le pantalon d'un vrai mage
     wizardboots:
-        name: Wizard's Boots
-        description: Magical boots
+        name: Les bottes magiques
+        description: Les bottes d'un vrai mage
     apprenticehelmet:
-        name: Apprentice Scarf
-        description: For new wizards
+        name: L'écharpe du sorcier
+        description: Pour les nouveaux sorciers
     apprenticechestplate:
-        name: Wizard's Robes
-        description: For new wizards
+        name: La robe du sorcier
+        description: Pour les nouveaux sorciers
     apprenticeleggings:
-        name: Apprentice Pants
-        description: For new wizards
+        name: Le pantalon du sorcier
+        description: Pour les nouveaux sorciers
     apprenticeboots:
-        name: Apprentice Boots
-        description: For new wizards
+        name: Les bottes du sorcier
+        description: Pour les nouveaux sorciers
     clericchestplate:
-        name: Cleric's Robes
-        description: Heals nearby players
+        name: La robe du Clerc
+        description: Soigne les joueurs à proximité
     magneticleggings:
-        name: Magnetic Leggings
-        description: Pulls in nearby items and XP
+        name: Pantalon magnétique
+        description: Attire l'XP et les objets proches
     rabbitboots:
-        name: Rabbit Boots
-        description: Spirit of the hare
+        name: Les bottes du lapin
+        description: Vive Pâques
     flashboots:
-        name: Flash Boots
+        name: Bottes Flash
         description: Zoooooooom
     rocketboots:
         name: Rocket Boots
@@ -1579,62 +1579,62 @@ wands:
         name: The Wolf
         description: NathanWolf's Staff/Broom
     minister:
-        name: The Minister
-        description: For Magic!
+        name: Le ministre
+        description: Pour la magie!
     miniwolf:
         name: Mini-Wolf
         description: NathanWolf's Legit Wand
     borealis:
-        name: Borealis
-        description: The Aurora Wand
+        name: Boréal
+        description: Le bâton de l'aurore
     conway:
         name: Conway's Wand
         description: The Game of Life
     redeffects:
-        name: Red Wand Effects
-        description: Tint your wand effects!
+        name: Effet rouge de baguette
+        description: Customise ton bâton!
     greeneffects:
-        name: Green Wand Effects
-        description: Tint your wand effects!
+        name: Effet vert de baguette
+        description: Customise ton bâton!
     blueeffects:
-        name: Blue Wand Effects
-        description: Tint your wand effects!
+        name: Effet bleu de baguette
+        description: Customise ton bâton!
     whiteeffects:
-        name: White Wand Effects
-        description: Tint your wand effects!
+        name: Effet blanc de baguette
+        description: Customise ton bâton!
     blackeffects:
-        name: Black Wand Effects
-        description: Tint your wand effects!
+        name: Effet noir de baguette
+        description: Customise ton bâton!
     purpleeffects:
-        name: Purple Wand Effects
-        description: Tint your wand effects!
+        name: Effet violet de baguette
+        description: Customise ton bâton!
     yelloweffects:
-        name: Yellow Wand Effects
-        description: Tint your wand effects!
+        name: Effet jaune de baguette
+        description: Customise ton bâton!
     aquaeffects:
-        name: Aqua Wand Effects
-        description: Tint your wand effects!
+        name: Effet aquatique de baguette
+        description: Customise ton bâton!
     orangeeffects:
-        name: Orange Wand Effects
-        description: Tint your wand effects!
+        name: Effet orange de baguette
+        description: Customise ton bâton!
     rainboweffects:
-        name: Rainbow Wand Effects
+        name: Effet arc en ciel de baguette
         description: Color-changing particles
     cleareffects:
-        name: Clear Wand Effects
-        description: Removes particles and bubbles
+        name: Efface les effets de bâton
+        description: Enlève les effets de bâton
     haloeffects:
-        name: Halo Effects
-        description: A personalized halo
+        name: Effet halo
+        description: Un halo personalisé
     student_upgrade:
-        name: Student Upgrade
-        description: Upgrade to Student level
+        name: Initiation à la magie
+        description: Devenir étudiant sorcier
     apprentice_upgrade:
-        name: Apprentice Upgrade
-        description: Upgrade to Apprentice Level
+        name: Perfection de la magie
+        description: Devenir apprenti mage
     master_upgrade:
-        name: Master Upgrade
-        description: Upgrade to Master level
+        name: Maitrise de la mgie
+        description: Devenir maitre lage
     engineer_upgrade:
         name: Engineer Upgrade
         description: Upgrade to Engineer level
@@ -1642,68 +1642,68 @@ wands:
         name: Architect Upgrade
         description: Upgrade to Architect level
     hotbar1:
-        name: Hotbar Reset
-        description: Reset your wand to a single hotbar
+        name: Effacer raccourcis
+        description: Réduit votre bâton à une seule barre
     hotbar2:
-        name: Hotbar Level 2
-        description: Add an extra hotbar to your wand!
+        name: Raccourci niveau 2
+        description: Ajoute une barre de raccourci à votre bâton!
     hotbar3:
-        name: Hotbar Level 3
-        description: Three hotbars are better than two
+        name: Raccourci niveau 3
+        description: Ajoute une autre barre de raccourci à votre bâton
     antihunger:
-        name: Anti-Hunger Upgrade
-        description: Never go hungry again!
+        name: NoFamine
+        description: N'ayez plus jamais faim!
     undroppable:
-        name: Undroppable Upgrade
-        description: Makes your wand undroppable
+        name: Bâton indroppable
+        description: Rend ton bâton indropable
     chestmode:
-        name: Chest Mode
-        description: A simpler wand mechanic
+        name: Mode coffre
+        description: Un mécanisme plus simple
     cyclemode:
-        name: Cycle Mode
-        description: The simplest wand mechanic
+        name: Mode cycle
+        description: Un mécanisme plus simple
     inventorymode:
-        name: Inventory Mode
-        description: For expert wizards
+        name: Mode inventaire
+        description: Pour les mages experts
     quickcast_enable:
-        name: Quick Cast (All)
-        description: Enable quick-cast on all spells
+        name: Sorts rapides (Tous)
+        description: Active le sort rapide tout les sorts
     quickcast_disable:
-        name: Quick Cast (None)
-        description: Disable quick-cast on all spells
+        name: Sorts rapides (Aucun)
+        description: Désactive le sort rapide tout les sorts
     quickcast_normal:
-        name: Quick Cast (Select)
-        description: Enable quick-cast on select spells
+        name: Sorts rapides (Sélectionne)
+        description: Sélectionne certains sorts rapides
     quickcast_manual:
-        name: Quick Cast (Manual)
-        description: Quick-cast only by pressing Q in inventory
+        name: Sorts rapides (Manuel)
+        description: Sorts rapides seulement en pressant (A) touche lâcher
     mode_drop:
-        name: Drop Mode
-        description: Use the Drop (Q) Button to open the spell inventory
+        name: Mode drop
+        description: Utilise le bouton lacher (A) pour ouvrir l'inventaire des sorts
     mode_rightclick:
-        name: Right-Click Mode
-        description: Right-Click to open the spell inventory
+        name: Mode clic droit
+        description: Clic droit pour ouvrir l'inventaire des sorts
     loud:
-        name: Loud Wand
-        description: Turn on all wand chat messages
+        name: Bâton bruyant
+        description: Actives tout les messages de sorts
     quiet:
-        name: Quiet Wand
-        description: Turn off spell cast messages
+        name: Bâton silencieux
+        description: Desactive tout les messages de sorts
     silent:
-        name: Wand Silencer
-        description: Turn off all wand chat messages
+        name: Baton discret
+        description: Desactive tout les messages de sorts dans le chat
     organizer:
-        name: The Organizer
-        description: Re-organizes your wand inventory
+        name: L'organiseur
+        description: Réorganises votre inventaire de sort
     alphabetizer:
-        name: The Alphabetizer
-        description: Alphabetizes your wand inventory
+        name: L'alphabétiseur
+        description: Alphabétises votre bâton
     recalltoken:
-        name: Recall Token
-        description: Teleport to waypoints
+        name: Jeyon de retour
+        description: Vous téléporte
     respawntoken:
-        name: Respawn Token
-        description: Cast to return to spawn
+        name: Jeton de résurrection
+        description: Retour au spawn
     wolfhouse:
         name: Wolf House
         description: An auto-regenerating base-in-a-box
@@ -1723,8 +1723,8 @@ wands:
         name: Heart of Worm
         description: It will consume the world
     cursedmeat:
-        name: Cursed Meat
-        description: Don't even touch it!
+        name: Viande maudite
+        description: Ne pas toucher!
     broomstick:
         name: Broomstick
         description: You can fly!
