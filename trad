@@ -132,55 +132,55 @@ wand:
     spell_aura: "Aura: &6$spell"
     costs_description: Couts $description
     active_costs_description: Couts $description par seconde
-    range_description: "&9Range: &6$range &9meters"
-    owner_description: $name's Wand
-    bound_description: Bound to $name
-    unmodifiable: That wand can not be modified
-    player_unmodifiable: $name's wand can not be modified
-    bound_to_other: That wand is not bound to you
-    bound: That wand is bound to $name
-    spell_added: "The &r&6$name &d&ospell has been added to your $wand"
-    brush_added: "The &r&7$name &d&obrush has been added to your $wand"
-    player_spell_upgraded: "$players's &r&6$name &d&ohas been upgraded to &3$level"
-    spell_upgraded: "&r&6$name &d&ohas been upgraded to &3$level"
-    spell_override_upgraded: "&r&6$name &d&ohas been upgraded"
-    upgraded_property: "&r&dYour $wand has been upgraded to &r&b$name"
-    mana_added: "&r&dYour $wand now has $value mana"
-    hotbar_added: "&r&aYour $wand's hotbar has been upgraded! &r&bPress Q while your $wand is active"
-    player_upgraded: $name's wand upgraded
-    player_not_upgraded: $name's wand not upgraded
-    no_item: You are not holding an item
-    player_no_item: $name is not holding an item
-    no_wand: You must be holding a wand
-    player_no_wand: $name is not holding a wand
-    no_item: You must be holding an item
-    player_no_magic_item: $name is not holding a magic item
-    no_magic_item: That is not a magic item
-    player_no_item: $name is not holding an item
-    reorganized: $wand reorganized
-    player_reorganized: $name's wand reorganized
-    alphabetized: $wand alphabetized
-    player_alphabetized: $name's wand alphabetized
-    already_enchanted: That $item is already enchanted
-    enchanted: Your $item has been enchanted
-    player_enchanted: $name's $item has been enchanted
-    unenchanted: Your wand has been unenchanted
-    no_path: "&r&4Your $wand can not be enchanted"
-    max_enchanted: "&r&4Your $wand can not be enchanted any further"
-    player_unenchanted: $name's wand has been unenchanted
-    level_up: "&r&bYour $wand has been upgraded to &r&5$path"
-    duplicated: Your wand has been duplicated
-    player_duplicated: $name's wand has been duplicated
-    restored: Your wands have been restored
-    player_restored: $name's wands have been restored
-    not_restored: You have no missing wands on record
-    player_not_restored: $name's wand has no missing wands on record
-    unlocked: Your wand has been unlocked
-    player_unlocked: $name's wand has been unlocked
-    unknown_template: Unknown wand name $name
-    reconfigured: Wand reconfigured
-    player_reconfigured: $name's wand reconfigured
-    filled: Your $wand now contains all of your spells
+    range_description: "&9Portée: &6$portée &metres"
+    owner_description: Baguette de $name
+    bound_description: Lié à $name
+    unmodifiable: Cette baguette ne peut pas être modifiée
+    player_unmodifiable: La baguette de $name ne peut pas etre modifiée
+    bound_to_other: Cette baguette n'est pas liée à toi
+    bound: Cette baguette est liée à $name
+    spell_added: "Le &r&6$name &d&osort a été ajouté à ta $wand"
+    brush_added: "Le &r&7$name &d&obalai a été ajouté à ta $wand"
+    player_spell_upgraded: "$players &r&6$name &d&oa été promu au niveau &3$level"
+    spell_upgraded: "&r&6$name &d&oa été promu au niveau &3$level"
+    spell_override_upgraded: "&r&6$name &d&oa été promu"
+    upgraded_property: "&r&dTa $wand a été amélioré au &r&b$name"
+    mana_added: "&r&dTa $wand a maintenant $value de mana"
+    hotbar_added: "&r&aLa barre d'inventaire de ta $wand a été améliorée! &r&bAppuie sur la touche Q pendant que ta $wand est active"
+    player_upgraded: $name améliorée
+    player_not_upgraded: $name na pas été améliorée
+    no_item: Tu ne tiens pas d'objet en main
+    player_no_item: $name ne tient pas d'objet en main
+    no_wand: Tu dois tenir ta baguette en main
+    player_no_wand: $name n'a pas de baguette en main
+    no_item: Tu dois tenir un objet en main
+    player_no_magic_item: $name ne tient pas d'objet magique en main
+    no_magic_item: Ce n'est pas un objet magique
+    player_no_item: $name ne tient pas d'objet en main
+    reorganized: $wand réorganisée
+    player_reorganized: Baguette de $name réorganisée
+    alphabetized: $wand alphabétisée
+    player_alphabetized: Baguette de $name alphabétisée
+    already_enchanted: Ce $item est déjà enchanté
+    enchanted: Ta $item a été enchanté
+    player_enchanted: $item de $name a été enchanté
+    unenchanted: Ta baguette a été désenchantée
+    no_path: "&r&4Ta $wand ne peut pas etre enchantée"
+    max_enchanted: "&r&4Ta $wand ne peut pas etre enchantée davantage"
+    player_unenchanted: La baguette de $name a été désenchantée
+    level_up: "&r&bTa $wand a été améliorée à &r&5$path"
+    duplicated: Ta baguette a été dupliquée
+    player_duplicated: La baguette de $name a été dupliquée
+    restored: Ta baguette a été restaurée
+    player_restored: La baguette de $name a été restaurée
+    not_restored: Tu n'as pas de baguette manquante d'enregistrée
+    player_not_restored: La baguette de $name n'a pas de baguette manquante d'enregistrée
+    unlocked: Ta baguette a été débloquée
+    player_unlocked: La baguette de $name a été débloquée
+    unknown_template: Nom de wand de $name inconnue
+    reconfigured: Baguette reconfigurée
+    player_reconfigured: La baguette de $name a été reconfigurée
+    filled: Ta $wand dispose maintenant de tout tes sorts
     player_filled: $name's wand filled
     renamed: Your wand has been renamed
     player_renamed: $name's wand renamed
