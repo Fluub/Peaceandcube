@@ -181,22 +181,22 @@ wand:
     reconfigured: Baguette reconfigurée
     player_reconfigured: La baguette de $name a été reconfigurée
     filled: Ta $wand dispose maintenant de tout tes sorts
-    player_filled: $name's wand filled
-    renamed: Your wand has been renamed
-    player_renamed: $name's wand renamed
-    self_destruct: The ancient artifact crumbles in your hands
-    no_permission: "&r&4You may not use that $wand &r&4here."
-    single_spell: Wand of $spell
-    fully_enchanted: "&cThis $wand is fully enchanted &4(for now)"
-    need_more_levels: "You need at least &r&4$levels &d&olevels to enchant"
-    require_more_levels: "You must enchant at a higher level"
-    randomized_lore: What kind of wand will you get?
-    randomized_name: Wand Box
-    upgrade_name: $name Upgrade
-    inventory_instructions: "&r&bYour $wand now has more than one spell. Right-click to open/close the spell inventory. Use the hotbar buttons to select a spell."
-    page_instructions: "&r&bYour $wand now has more than one page of spells. Click outside the spell inventory to change pages."
-    bound_instructions: "&r&3Your $wand is bound to you, and is undroppable."
-    spell_instructions: "&r&bSwing your $wand to cast &r&6$spell&d&o. Spells require mana, shown in the XP bar."
+    player_filled: Nom de $name rempli
+    renamed: Ta baguette a été renommée
+    player_renamed: Ta $name a été renommée
+    self_destruct: L'ancien artefact s'est écroulé dans vos mains
+    no_permission: "&r&4Vous ne pouvez pas utiliser cette $wand &r&4ici."
+    single_spell: Baguette de $spell
+    fully_enchanted: "&cCette $wand est totalement enchantée &4(pour l'instant)"
+    need_more_levels: "Tu dois avoir au moins &r&4$levels &d&oniveaux pour enchanter ta baguette"
+    require_more_levels: "Tu dois enchanter à un plus grand niveau"
+    randomized_lore: Quel type de baguette vas tu avoir ?
+    randomized_name: Boite de baguettes
+    upgrade_name: $name Amélioration
+    inventory_instructions: "&r&bTa $wand possède au moins un sort. Clique-droit pour ouvrir / fermer l'inventaire des sorts. Utilises la barre de sélection principale des sorts pour sélectionner un sort."
+    page_instructions: "&r&bTa $wand possède maintenant plus d'une page de sorts. Cliques en dehors de l'inventaire pour changer de page de sorts."
+    bound_instructions: "&r&3Ta $wand est liée à toi, tu ne peux pas la jeter à quelqu'un."
+    spell_instructions: "&r&bClique-droit avec ta $wand pour jeter le sort &r&6$spell&d&o. Les sorts nécessitent du mana, visible dans la barre d'XP."
     enchant_instructions: "&r&bUpgrade your $wand at an enchanting table to add spells and abilities."
     brush_instructions: "&r&bMaterial brushes have been added to your $wand. Shift+Right Click to select a brush."
     sp_instructions: "&r&6You have earned some Skill Points! SP's are displayed above your mana bar, and may be spent at an enchanting table to learn new spells. Repeat casts earn fewer SP's, try mixing it up once you have more spells!"
